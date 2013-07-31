@@ -1,0 +1,58 @@
+.goods
+{
+	margin-left: -5%;
+	margin-top: -5%;
+	font-size: 0;
+	padding: 25px 0;
+}
+
+.goods__item
+{
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 5%;
+	width: 20%;
+	padding: 10px;
+	border: 1px solid yellow;
+	vertical-align: top;
+	font-size: 16px;
+	text-align: center;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.goods__title
+{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.goods__image
+{
+	vertical-align: top;
+}
+
+.goods__price
+{
+	display: block;
+	padding: 10px;
+	background: yellow;
+	text-transform: uppercase;
+}
+.goods__item_new_yes .goods__price
+{
+	background: green;
+}
+
+.goods__link
+{
+	color: black;
+}
+.goods__item_new_yes .goods__link
+{
+	color: white;
+}

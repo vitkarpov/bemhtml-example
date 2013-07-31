@@ -1,0 +1,20 @@
+.layout:after
+{
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.layout__content
+{
+		float: left;
+    padding-right: 200px;
+}
+
+.layout__sidebar
+{
+    float: left;
+    margin-left: -150px;
+
+    width: 150px;
+}

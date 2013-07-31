@@ -1,0 +1,4 @@
+block b-page, content: {
+	elem: 'body-inner',
+	content: this.ctx.content
+}

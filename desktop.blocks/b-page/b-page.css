@@ -1,0 +1,7 @@
+.b-page__body-inner
+{
+	min-width: 1000px;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

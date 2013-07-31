@@ -1,0 +1,26 @@
+.b-search
+{
+   margin: 44px 0;
+}
+
+.b-search__input,
+.b-search__button
+{
+    font-size: 16px;
+}
+
+.b-search__input
+{
+	height: 24px;
+	line-height: 24px;
+}
+
+.b-search__button
+{
+		border: 1px solid black;
+		padding: 0 10px;
+		height: 24px;
+		line-height: 21px;
+		background: white;
+		cursor: pointer;
+}

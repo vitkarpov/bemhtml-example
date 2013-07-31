@@ -1,0 +1,227 @@
+/* index.ie.css begin */
+/* index.css begin */
+/* ../../desktop.blocks/b-page/b-page.css begin */
+.b-page__body-inner
+{
+	min-width: 1000px;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ../../desktop.blocks/b-page/b-page.css end */
+
+/* ../../desktop.blocks/head/head.css begin */
+.head
+{
+	background: lightyellow;
+	margin: -20px;
+	padding: 20px;
+}
+
+/* ../../desktop.blocks/head/head.css end */
+
+/* ../../desktop.blocks/layout/layout.css begin */
+.layout:after
+{
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.layout__content
+{
+		float: left;
+    padding-right: 200px;
+}
+
+.layout__sidebar
+{
+    float: left;
+    margin-left: -150px;
+
+    width: 150px;
+}
+/* ../../desktop.blocks/layout/layout.css end */
+
+/* ../../libs/bem-bl/blocks-desktop/b-search/b-search.css begin */
+.b-search__input
+{
+    width: 100%;
+    margin: 0;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.b-search__button
+{
+    margin: 0;
+}
+/* ../../libs/bem-bl/blocks-desktop/b-search/b-search.css end */
+
+/* ../../desktop.blocks/b-search/b-search.css begin */
+.b-search
+{
+   margin: 44px 0;
+}
+
+.b-search__input,
+.b-search__button
+{
+    font-size: 16px;
+}
+
+.b-search__input
+{
+	height: 24px;
+	line-height: 24px;
+}
+
+.b-search__button
+{
+		border: 1px solid black;
+		padding: 0 10px;
+		height: 24px;
+		line-height: 21px;
+		background: white;
+		cursor: pointer;
+}
+/* ../../desktop.blocks/b-search/b-search.css end */
+
+/* ../../libs/bem-bl/blocks-desktop/b-layout-table/b-layout-table.css begin */
+.b-layout-table
+{
+    font-size: 100%;
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.b-layout-table__gap,
+.b-layout-table__cell
+{
+    padding: 0;
+
+    vertical-align: top;
+}
+
+/* ../../libs/bem-bl/blocks-desktop/b-layout-table/b-layout-table.css end */
+
+/* ../../libs/bem-bl/blocks-desktop/b-search/__layout/b-search__layout.css begin */
+.b-search__layout-input
+{
+    width: 100%;
+
+    vertical-align: middle;
+}
+
+.b-search__layout-button
+{
+    padding-left: 6px;
+
+    vertical-align: middle;
+}
+
+/* ../../libs/bem-bl/blocks-desktop/b-search/__layout/b-search__layout.css end */
+
+/* ../../libs/bem-bl/blocks-desktop/b-icon/b-icon.css begin */
+.b-icon
+{
+    font: 0/0 a;
+
+    border: 0;
+
+}
+
+/* ../../libs/bem-bl/blocks-desktop/b-icon/b-icon.css end */
+
+/* ../../desktop.blocks/b-logo/b-logo.css begin */
+.b-logo .b-link
+{
+    color: #666;
+    text-decoration: none;
+}
+
+.b-logo__slogan
+{
+    font: 11px Verdana, sans-serif;
+
+    white-space: nowrap;
+    letter-spacing: 1px;
+
+    display: block;
+
+    margin-top: 5px;
+}
+/* ../../desktop.blocks/b-logo/b-logo.css end */
+
+/* ../../desktop.blocks/goods/goods.css begin */
+.goods
+{
+	margin-left: -5%;
+	margin-top: -5%;
+	font-size: 0;
+	padding: 25px 0;
+}
+
+.goods__item
+{
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 5%;
+	width: 20%;
+	padding: 10px;
+	border: 1px solid yellow;
+	vertical-align: top;
+	font-size: 16px;
+	text-align: center;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.goods__title
+{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.goods__image
+{
+	vertical-align: top;
+}
+
+.goods__price
+{
+	display: block;
+	padding: 10px;
+	background: yellow;
+	text-transform: uppercase;
+}
+.goods__item_new_yes .goods__price
+{
+	background: green;
+}
+
+.goods__link
+{
+	color: black;
+}
+.goods__item_new_yes .goods__link
+{
+	color: white;
+}
+/* ../../desktop.blocks/goods/goods.css end */
+
+
+/* index.css end */
+
+
+/* index.ie.css end */
+
