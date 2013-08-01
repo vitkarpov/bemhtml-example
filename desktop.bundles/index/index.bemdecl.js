@@ -6,6 +6,22 @@ exports.blocks = [
         "name": "head"
     },
     {
+        "name": "box",
+        "mods": [
+            {
+                "name": "head",
+                "vals": [
+                    "yes"
+                ]
+            }
+        ],
+        "elems": [
+            {
+                "name": "switcher"
+            }
+        ]
+    },
+    {
         "name": "layout",
         "elems": [
             {

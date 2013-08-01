@@ -13,6 +13,9 @@ block goods {
 
             content.push({
                 elem: 'item',
+                mix: [
+                    { block: 'box' }
+                ],
                 mods: mods,
                 content: [
                     {

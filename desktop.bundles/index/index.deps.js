@@ -86,6 +86,9 @@ exports.deps = [
         "block": "head"
     },
     {
+        "block": "box"
+    },
+    {
         "block": "layout"
     },
     {

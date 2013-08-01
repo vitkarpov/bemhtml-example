@@ -10,45 +10,58 @@
     content: [
         {
             block: 'head',
-            content: {
-                block: 'layout',
-                content: [
-                    {
-                        elem: 'content',
-                        content: {
-                            block: 'b-search',
-                            attrs: { action: '/search.xml' },
-                            input: {
-                                elem: 'input',
-                                attrs: { placeholder: 'Find' }
-                            },
-                            button: {
-                                elem: 'button'
-                            }
-                        }
-                    },
-                    {
-                        elem: 'sidebar',
-                        content: {
-                            block: 'b-logo',
+            mix: [
+                { 
+                    block: 'box',
+                    mods: { head: 'yes' },
+                    js: true 
+                }
+            ],
+            content: [
+                {
+                    block: 'layout',
+                    content: [
+                        {
+                            elem: 'content',
                             content: {
-                                elem: 'link',
-                                url: 'http://bem.info',
-                                content: [
-                                    {
-                                        elem: 'icon',
-                                        url: 'http://varya.me/online-shop-dummy/desktop.blocks/b-logo/b-logo.png'
-                                    },
-                                    {
-                                        elem: 'slogan',
-                                        content: 'A new way of thinking'
-                                    }
-                                ]
+                                block: 'b-search',
+                                attrs: { action: '/search.xml' },
+                                input: {
+                                    elem: 'input',
+                                    attrs: { placeholder: 'Find' }
+                                },
+                                button: {
+                                    elem: 'button'
+                                }
+                            }
+                        },
+                        {
+                            elem: 'sidebar',
+                            content: {
+                                block: 'b-logo',
+                                content: {
+                                    elem: 'link',
+                                    url: 'http://bem.info',
+                                    content: [
+                                        {
+                                            elem: 'icon',
+                                            url: 'http://varya.me/online-shop-dummy/desktop.blocks/b-logo/b-logo.png'
+                                        },
+                                        {
+                                            elem: 'slogan',
+                                            content: 'A new way of thinking'
+                                        }
+                                    ]
+                                }
                             }
                         }
-                    }
-                ]
-            }
+                    ]
+                },
+                {
+                    block: 'box',
+                    elem: 'switcher'
+                }
+            ]    
         },
         {
             block: 'goods',

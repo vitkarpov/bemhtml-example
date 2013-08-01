@@ -3283,3 +3283,54 @@ $(function() {
 });
 /* ../../libs/bem-bl/blocks-common/i-bem/__dom/_init/i-bem__dom_init_auto.js end */
 ;
+/* ../../libs/john-lib/blocks/box/box.js begin */
+/** @requires BEM */
+/** @requires BEM.DOM */
+
+(function($) {
+
+BEM.DOM.decl('box', {}, {
+
+    live : function() {
+        this.liveBindTo('switcher', 'click', function(){
+            this.toggleMod('closed', 'yes');
+        });
+    }
+
+});
+
+})(jQuery);
+
+/* ../../libs/john-lib/blocks/box/box.js end */
+;
+/* ../../desktop.blocks/box/box.js begin */
+/** @requires BEM */
+/** @requires BEM.DOM */
+
+(function(undefined) {
+
+BEM.DOM.decl('box', {
+
+    onSetMod : {
+
+        'closed': {
+        	'yes': function() {
+        		this.domElem.animate({
+        			'margin-left': '50%'
+        		}, 1000);
+        	},
+        	'': function() {
+        		this.domElem.css({
+        			'margin-left': 'auto'
+        		});
+        	}
+        }
+
+    }
+
+}, {});
+
+})();
+
+/* ../../desktop.blocks/box/box.js end */
+;

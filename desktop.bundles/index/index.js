@@ -11,3 +11,5 @@
 /*borschik:include:../../libs/bem-bl/blocks-common/i-bem/__dom/i-bem__dom.js*/;
 /*borschik:include:../../libs/bem-bl/blocks-common/i-ecma/__string/i-ecma__string.js*/;
 /*borschik:include:../../libs/bem-bl/blocks-common/i-bem/__dom/_init/i-bem__dom_init_auto.js*/;
+/*borschik:include:../../libs/john-lib/blocks/box/box.js*/;
+/*borschik:include:../../desktop.blocks/box/box.js*/;
